@@ -1,0 +1,157 @@
+nav{
+    background-color: rgb(57, 57, 57);
+    color: white;
+    font-weight: bold;
+    position: fixed;
+    width: 100%;
+    font-family: "Marhey", sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.search-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    border-radius: 25px;
+    background-color: white;
+}
+.search-input img{
+    width: 50px;
+}
+.search-input input{
+    /* width: 250px; */
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 8px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.logo img{
+    width: 50px;
+    border-radius: 50%;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
+nav ul{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    list-style: none;
+    font-size: 20px;
+    padding: 10px;
+    gap: 40px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 8px;
+    color: rgb(84, 84, 84);
+}
+nav ul li a:active,
+nav ul li a:focus{
+    text-decoration: underline;
+}
+main{
+    padding: 80px;
+}
+main h1{
+    font-family: "Marhey", sans-serif;
+}
+.image-container{
+    display: flex;
+    justify-content: center;
+    order: 2;
+}
+.image-container img{
+    width: 350px;
+    border-radius: 50%;
+    box-shadow: 0 8px 15px hsla(0, 0%, 0%, 0.7);
+}
+.image-container img:hover{
+    box-shadow: 0 8px 15px hsla(163, 100%, 37%, 0.7);
+    transform: translateY(-20px)
+}
+.first-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    gap: 100px;
+}
+.aboutme{
+    font-family: "Marhey", sans-serif;
+    text-align: center;
+}
+.aboutme h1{
+    text-align: center;
+    color: rgb(27, 27, 84);
+}
+.two{
+    text-align: center;
+}
+.four{
+    text-align: center;
+    padding: 30px;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    border: none;
+    outline: none;
+    padding-top: 25px;
+    position: static;
+}
+
+.card-container{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 300px;
+    box-shadow: 0 8px 10px hsla(0, 0%, 0%, 0.211);
+}
+.card-container:hover{
+    box-shadow: 0 8px 15px hsla(0, 0%, 0%, 0.7);
+    transform: translateY(-20px)
+}
+article{
+    padding: 10px;
+}
+.card img{
+    width: 300px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.image-card{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.btn button{
+    border-radius: 25px;
+    width: 150px;
+    padding: 7px;
+    border: none;
+    outline: none;
+    background-color: hsla(273, 86%, 23%, 0.663);
+    color: white;
+}

@@ -1,0 +1,26 @@
+.container{
+    margin-top: 50px;
+}
+.text-content{
+    text-align: center;
+}
+.text-content h1{
+    color: orangered;
+}
+.btn-fild{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+.btn-fild button{
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    width: 125px;
+    font-size: 18px;
+}
+.zero{
+    text-align: center;
+    margin-top: 10px;
+}

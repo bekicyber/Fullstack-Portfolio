@@ -1,0 +1,63 @@
+.container{
+    margin-top: 50px;
+}
+.title{
+    text-align: center;
+    color: orangered;
+}
+.input-fild{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo-list{
+    background-color: orangered;
+    width: 400px;
+    border-radius: 30px;
+}
+.input-fild input{
+    border: none;
+    outline: none;
+    width: 300px;
+    margin-left: 0px;
+    border-radius: 28px;
+    background-color: whitesmoke;
+    padding: 15px;
+}
+.input-fild button{
+    border-radius: 8px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+.list-Task{
+    text-align: center;
+    margin-top: 30px;
+}
+.list-Task ul{
+    list-style: none;
+}
+.todo-item {
+    display: flex;
+    justify-content: center; /* pushes text left and button right */
+    align-items: center; /* aligns them vertically */
+    gap: 50px;
+    margin: 8px 0;
+    padding: 8px 12px;
+    border-radius: 6px;
+  }
+  
+  .delete-btn {
+    background-color: orangered;
+    color: white;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .delete-btn:hover {
+    background-color: hsla(16, 100%, 50%, 0.442);
+  }
+  
